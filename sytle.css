@@ -1,0 +1,239 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: #1a1a1a;
+    background-image: url(Dreams-Jardin-Tropical-2024-Swimming-Pool-003-100402-Hybris.jpg);
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-image:url(ACE_81721_Dreams_Lanzarote_Playa_Dorada_Resort_&_Spa_0823_10.jpg); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    background-color: #ff9900;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+
+  /* new css using for room */
+
+
+
+
+  .rooms-list {
+    padding: 2rem 0;
+    background-color: #fff;
+    background-image: url(CFU_83226_Dreams_Corfu_Resort_&_Spa_0723_15.jpg);
+  }
+  
+  .rooms-list h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #004080;
+  }
+  
+  .room-card {
+    background: #f9f9f9;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .room-card img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: cover;
+  }
+  
+  .room-info {
+    padding: 1rem;
+    flex: 1;
+  }
+  
+  .room-info h3 {
+    color: #004080;
+    margin-top: 0;
+  }
+  
+
+
+
+  /* this css for room booking */
+
+
+  .booking-form {
+    padding: 2rem 0;
+    background-color: #fff;
+    background-image: url(Dreams-Jardin-Tropical-2024-Swimming-Pool-003-100402-Hybris.jpg);
+  }
+  
+  .booking-form h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #004080;
+  }
+  
+  .booking-form form {
+    max-width: 600px;
+    margin: auto;
+    background: #f4f4f4;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .booking-form input,
+  .booking-form select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+
+
+  /* this is for about */
+
+
+  .about-us {
+    padding: 2rem;
+    background-color: #fff;
+    background-image: url(CFU_83226_Dreams_Corfu_Resort_&_Spa_0723_15.jpg);
+    color: #333;
+  }
+  
+  .about-us h2,
+  .about-us h3 {
+    color: #004080;
+    text-align: center;
+  }
+  
+  .about-us p {
+    max-width: 800px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .services-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 1rem auto 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+  }
+  
+  .services-list li {
+    background: #f0f8ff;
+    padding: 1rem;
+    border-left: 5px solid #004080;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+
+  /* css for foter  */
+
+  .footer {
+    background-color: #007BFF;
+    background-image: url(Dreams-Jardin-Tropical-2024-Swimming-Pool-003-100402-Hybris.jpg);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .footer .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .footer-logo h1 {
+    font-size: 1.5rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+  }
+  
+  
